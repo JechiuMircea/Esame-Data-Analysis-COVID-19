@@ -43,4 +43,4 @@ Esame-Data-Analysis-COVID-19/
 Mircea Jechiu
 
 ## Note
-Progetto realizzato come parte dell'esame di Data Analysis. 
+Progetto realizzato come parte dell'esame di Python. 
