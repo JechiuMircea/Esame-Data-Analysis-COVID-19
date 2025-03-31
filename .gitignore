@@ -1,0 +1,25 @@
+# File di organizzazione personale (file che usiamo solo localmente per organizzare il lavoro)
+TracciaEsame.md          # File contenente la traccia dell'esame
+StepByStep.md            # File contenente i nostri passi di sviluppo
+
+# Python - File generati automaticamente che non servono nel repository
+__pycache__/            # Cartella creata da Python contenente file di bytecode compilato
+*.py[cod]               # Qualsiasi file .pyc, .pyo, o .pyd (sono file Python compilati)
+*$py.class             # File di bytecode specifici per Jython (implementazione Python per Java)
+
+# Ambiente virtuale - Cartelle che contengono le dipendenze Python installate localmente
+venv/                  # Cartella standard per ambiente virtuale Python
+env/                   # Nome alternativo comune per l'ambiente virtuale
+
+# Dataset - Escludiamo i file di dati che sono disponibili online
+data/*.csv             # Tutti i file CSV nella cartella data/
+data/*.xlsx            # Tutti i file Excel (formato nuovo) nella cartella data/
+data/*.xls             # Tutti i file Excel (formato vecchio) nella cartella data/
+data/*.json            # Tutti i file JSON nella cartella data/
+
+# File di sistema - File generati automaticamente dal sistema operativo
+.DS_Store              # File di metadata creato automaticamente da macOS
+Thumbs.db              # File di cache delle miniature creato da Windows
+
+# IDE - File di configurazione dell'editor
+.vscode/               # Cartella con le impostazioni di Visual Studio Code 
