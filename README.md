@@ -1,73 +1,87 @@
-# Esame Data Analysis COVID-19
+# Analisi Dati COVID-19
+
+## Descrizione del Progetto
+Questo progetto analizza i dati della pandemia COVID-19 utilizzando il dataset di Our World in Data. L'analisi è strutturata in cinque parti principali, ognuna focalizzata su aspetti specifici dei dati.
+
+## Struttura del Repository
+```
+.
+├── src/                    # Script Python per le analisi
+├── output_grafici/         # Grafici e file di statistiche generati
+├── docs/                   # Documentazione aggiuntiva
+└── requirements.txt        # Dipendenze Python necessarie
+```
+
+## Prerequisiti
+- Python 3.8 o superiore
+- Librerie Python: pandas, matplotlib, seaborn
+- Dataset: owid-covid-data.csv (da scaricare separatamente)
+
+## Installazione
+```bash
+# Creazione ambiente virtuale
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Installazione dipendenze
+pip install -r requirements.txt
+```
+
+## Analisi e Risultati
+
+### 4.1 Dimensioni e Metadati
+- **Obiettivo**: Analisi della struttura e qualità del dataset
+- **Risultati**:
+  - Dataset contiene dati globali sulla pandemia
+  - Struttura: dati giornalieri per paese/regione
+  - Metriche principali: casi, decessi, ospedalizzazioni, vaccinazioni
+
+### 4.2 Analisi per Continente
+- **Obiettivo**: Studio della distribuzione dei casi per continente
+- **Risultati**:
+  - Analisi della distribuzione geografica dei casi
+  - Calcolo delle percentuali sul totale mondiale
+  - Visualizzazione comparativa tra continenti
+
+### 4.3 Focus Italia 2022
+- **Obiettivo**: Analisi dettagliata dei casi in Italia nel 2022
+- **Risultati**:
+  - Evoluzione temporale dei casi totali
+  - Andamento dei nuovi casi giornalieri
+  - Identificazione dei periodi di maggiore incidenza
+
+### 4.4 Confronto Terapie Intensive
+- **Obiettivo**: Confronto tra Italia, Germania e Francia (mag 2022 - apr 2023)
+- **Risultati**:
+  - Analisi tramite boxplot delle distribuzioni
+  - L'Italia ha mostrato il minor numero di pazienti in terapia intensiva
+  - Differenza di circa il 50% rispetto agli altri paesi analizzati
+
+### 4.5 Analisi Ospedalizzazioni 2021
+- **Obiettivo**: Studio comparativo delle ospedalizzazioni
+- **Risultati**:
+  - Analisi di Italia, Francia e Spagna (Germania: dati non disponibili)
+  - Confronto delle medie giornaliere e dei picchi massimi
+  - Valutazione dell'impatto sui sistemi ospedalieri
 
 ## Esecuzione degli Script
 Ogni script può essere eseguito indipendentemente:
-
 ```bash
-python src/4.1_dimensioni.py  # Analisi dimensioni e metadati
-python src/4.2_continenti.py  # Analisi per continente
-python src/4.3_italia.py      # Focus Italia 2022
-python src/4.4_intensive.py   # Analisi terapie intensive
-python src/4.5_ospedali.py    # Analisi ospedalizzazioni
+python src/4.1_dimensioni.py
+python src/4.2_continenti.py
+python src/4.3_italia.py
+python src/4.4_confronto_ti.py
+python src/4.5_ospedali.py
 ```
 
-## Descrizione delle Analisi e Risultati
-
-### 4.1 Dimensioni e Metadati
-- Analisi delle dimensioni del dataset
-- Esplorazione dei metadati
-- Verifica della qualità dei dati
-
-#### Risultati 4.1
-![Distribuzione dei dati mancanti](output_grafici/4.1_missing_data.png)
-- Dimensioni del dataset: X righe × Y colonne
-- Principali statistiche: [verranno aggiunte]
-
-### 4.2 Analisi per Continente
-- Calcolo dei casi totali per continente
-- Analisi delle percentuali sul totale mondiale
-- Visualizzazioni comparative
-
-#### Risultati 4.2
-![Casi totali per continente](output_grafici/4.2_total_cases_continent.png)
-![Percentuali sul totale mondiale](output_grafici/4.2_percentages_continent.png)
-- Tabella riassuntiva: [verrà aggiunta]
-
-### 4.3 Focus Italia 2022
-- Analisi dell'evoluzione dei casi totali
-- Studio dei nuovi casi
-- Gestione dei dati mancanti
-
-#### Risultati 4.3
-![Evoluzione casi totali Italia 2022](output_grafici/4.3_italy_total_cases.png)
-![Nuovi casi Italia 2022](output_grafici/4.3_italy_new_cases.png)
-- Trend principali: [verranno aggiunti]
-
-### 4.4 Confronto Terapie Intensive
-- Confronto tra Italia, Germania e Francia
-- Analisi del periodo maggio 2022 - aprile 2023
-- Visualizzazioni statistiche
-
-#### Risultati 4.4
-![Boxplot terapie intensive](output_grafici/4.4_icu_boxplot.png)
-- Analisi comparativa: [verrà aggiunta]
-
-### 4.5 Analisi Ospedalizzazioni
-- Studio dei dati di Italia, Germania, Francia e Spagna
-- Analisi dei dati mancanti
-- Valutazione delle possibilità di sostituzione
-
-#### Risultati 4.5
-![Ospedalizzazioni per paese](output_grafici/4.5_hospitalizations.png)
-- Analisi dei dati mancanti: [verrà aggiunta]
-
-## Note Importanti
-- Tutti i grafici vengono salvati nella cartella `output_grafici/` e sono visualizzabili direttamente su GitHub
-- Ogni script include commenti dettagliati per ogni riga di codice
-- I risultati delle analisi vengono documentati sia nel codice che in questo README
+## Note Tecniche
+- Gli script gestiscono automaticamente i dati mancanti
+- I risultati vengono salvati sia come grafici che come file di testo
+- Ogni analisi include verifiche sulla qualità dei dati
 
 ## Autore
 Mircea Jechiu
 
 ## Licenza
-Questo progetto è distribuito sotto licenza MIT. 
+MIT License 
