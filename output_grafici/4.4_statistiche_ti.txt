@@ -1,0 +1,10 @@
+ANALISI COMPARATIVA TERAPIE INTENSIVE
+
+Dall'analisi effettuata ho notato che l'Italia è stato il paese con minor numero di pazienti
+ in terapia intensiva rispetto ai paesi con i quali abbiamo fatto il confronto, con almeno il 50% di pazienti in meno all'incirca.
+
+NOTE:
+- Il boxplot mostra la distribuzione dei pazienti in terapia intensiva
+- I box rappresentano il 25°, 50° (mediana) e 75° percentile
+- I whiskers mostrano i valori min/max (esclusi outlier)
+- I punti rappresentano gli outlier

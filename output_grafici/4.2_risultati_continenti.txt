@@ -1,0 +1,14 @@
+ANALISI CASI COVID-19 PER CONTINENTE
+==================================================
+
+Dati riferiti all'ultima data disponibile nel dataset
+
+   Continente Casi Totali Percentuale sul Totale
+         Asia 301,499,099                 38.86%
+       Europe 252,916,868                 32.60%
+North America 124,492,666                 16.05%
+South America  68,809,418                  8.87%
+      Oceania  15,003,352                  1.93%
+       Africa  13,145,380                  1.69%
+
+Totale mondiale: 775,866,783 casi

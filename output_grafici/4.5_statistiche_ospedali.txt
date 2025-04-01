@@ -1,0 +1,29 @@
+ANALISI OSPEDALIZZAZIONI COVID-19 (2021)
+==================================================
+
+STATISTICHE OSPEDALIZZAZIONI PER PAESE:
+
+Italy:
+- Media giornaliera: 12,109 pazienti
+- Picco massimo: 33,080 pazienti
+
+Germany:
+- Dati non disponibili per il 2021
+
+France:
+- Media giornaliera: 16,462 pazienti
+- Picco massimo: 31,262 pazienti
+
+Spain:
+- Media giornaliera: 6,607 pazienti
+- Picco massimo: 27,029 pazienti
+
+ANALISI DATI MANCANTI:
+La Germania non ha dati disponibili per le ospedalizzazioni nel 2021.
+Per gli altri paesi, i dati sono completi e non presentano valori mancanti.
+La sostituzione dei dati mancanti non è necessaria né consigliabile in questo caso.
+
+NOTE:
+- La media giornaliera rappresenta il numero medio di pazienti ospedalizzati in un giorno qualsiasi del 2021
+- Il picco massimo rappresenta il numero più alto di pazienti ospedalizzati raggiunto nel 2021
+- I calcoli considerano solo i paesi e i giorni con dati disponibili

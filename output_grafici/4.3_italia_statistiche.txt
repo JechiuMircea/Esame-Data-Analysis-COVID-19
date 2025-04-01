@@ -1,0 +1,17 @@
+ANALISI COVID-19 ITALIA 2022
+==================================================
+
+STATISTICHE GENERALI
+--------------------
+Periodo analizzato: dal 01/01/2022 al 31/12/2022
+Totale giorni nel 2022: 365
+Giorni con misurazioni: 365
+Giorni senza misurazioni: 0
+
+STATISTICHE SUI CASI
+--------------------
+Casi totali inizio 2022: 5,622,431
+Casi totali fine 2022: 25,060,503
+Nuovi casi nel 2022: 19,438,072
+Media nuovi casi: 53,254
+Massimo nuovi casi: 1,268,153
